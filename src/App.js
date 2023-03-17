@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>あなたの新幹線の料金</h1>
+        <p>新大阪駅＜＝＞東京駅間の新幹線の料金を調べますのでご年齢を入力してください</p>
       </header>
+      <div>
+        <form>
+          <label>年齢</label>
+          <input type='number' placeholder='年齢を入力してください'/>
+          <button>解　答</button>
+        </form>
+      </div>
+      <div>
+        <h3>あなたの新幹線の料金は{}円です</h3>
+      </div>
     </div>
   );
 }
