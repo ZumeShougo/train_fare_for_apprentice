@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+## 概要
+WEBテスト課題
+新大阪駅〜東京駅の新幹線料金を年齢別に出力する機能（料金は仮定）  
+以下は、予習動画を元に自分なりに当てはめたものになります  
+## 進め方
+[1] プログラム実行環境を用意  
+　言語は慣れたものを使用して良いとのことで、最近学習した内容のアウトプットを兼ねてReactで作成  
+[2] 関数を定義し関数を呼び出す形をファイルに記載する
+- まずは、簡単に見た目の部分を作成し、表示を確認
+- 処理内容はまだ書かずに、ボタンを押したらイベントハンドラが反応し、コンソールに「hello world」と出力するようにして確認
+[3] 処理を記載して実行する
+　今回は年齢別の料金が知ることができれば良いので、条件分岐(switch文かif文)を使用して行く
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## コードの基礎
+- コードを実行できる状態を用意する  
+　localでnpx create-react-app train-fare-for-apprentice　として環境構築し、一度立ち上げて、問題ないことを確認  
+- インターフェイスだけ先に定義する  
+　不要なファイルの削除  
+　不要なコードの削除  
+　見た目の作成  
+　関数handleTrainFareを作成、中身はconsole.log('hello world')として確認  
+- 小さく作って動作確認  
+　途中にコンソールに出力するような記述をしたり、立ち上げたりして確認  
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## STEP  
+- ロジックを考える  
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F9bAp6bFWlS7xXFfbwz6tbt%2F%25E7%2584%25A1%25E9%25A1%258C%3Fnode-id%3D0%253A1%26t%3DC6Exm56v0ykbh7Qz-1" allowfullscreen></iframe>
